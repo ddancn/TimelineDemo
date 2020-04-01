@@ -14,9 +14,9 @@ class MainActivity : AppCompatActivity() {
 
         val records = ArrayList<Record>()
         val adapter = RecordAdapter()
-        records.add(Record(1, "time", "content"))
-        records.add(Record(2, "time", "content"))
-        records.add(Record(3, "time", "content"))
+        records.add(Record(1, "2020-03-31", "第一步已完成"))
+        records.add(Record(2, "2020-03-31", "第二步进行中"))
+        records.add(Record(3, "2020-03-31", "第三步未开始"))
         adapter.data = records
 
         // 第一个rv

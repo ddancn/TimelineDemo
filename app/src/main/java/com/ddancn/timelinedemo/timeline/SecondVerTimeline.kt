@@ -18,7 +18,7 @@ class SecondVerTimeline<T> : RecyclerView.ItemDecoration() {
 
     var data: List<T> = ArrayList()
 
-    var radius = 8f
+    var radius = 10f
     var offset = 15
 
     var paddingLeft = 15

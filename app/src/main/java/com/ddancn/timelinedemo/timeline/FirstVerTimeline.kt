@@ -15,7 +15,7 @@ class FirstVerTimeline : RecyclerView.ItemDecoration() {
 
     private val paint = Paint(Paint.ANTI_ALIAS_FLAG)
 
-    var radius = 8f
+    var radius = 10f
     var offset = 15
 
     var paddingLeft = 15
